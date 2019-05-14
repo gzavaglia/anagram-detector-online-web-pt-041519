@@ -6,7 +6,7 @@ class Anagram
     @word = some_word
   end 
   
-  def self.match(string)
+  def match(string)
     
   end 
   
