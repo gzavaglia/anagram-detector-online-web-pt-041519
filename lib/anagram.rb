@@ -10,8 +10,11 @@ class Anagram
     match_array = []
     array_of_words = string.split (" ")
     array_of_words.each do |some_word|
-      
-    end 
+      if @word.sort == some_word.sort 
+        match_array << some_word
+      end 
+    end
+    return match_array
   end 
   
 end #Anagram
