@@ -7,6 +7,7 @@ class Anagram
   end 
   
   def match(string)
+    match_array = []
     
   end 
   
