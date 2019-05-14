@@ -8,7 +8,10 @@ class Anagram
   
   def match(string)
     match_array = []
-    
+    array_of_words = string.split (" ")
+    array_of_words.each do |some_word|
+      
+    end 
   end 
   
 end #Anagram
